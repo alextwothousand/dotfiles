@@ -19,6 +19,7 @@ curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh
 
 # social media
 sudo yum install -y Discord-installer
+sudo yum install -y telegram-desktop
 
 # dev tools
 sudo yum install -y jetbrains-clion
