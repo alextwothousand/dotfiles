@@ -23,3 +23,8 @@ sudo yum install -y telegram-desktop
 
 # dev tools
 sudo yum install -y jetbrains-clion
+
+# 0x0 wrapper
+curl -LO https://raw.githubusercontent.com/Calinou/0x0/master/bin/0x0
+sudo chmod +x 0x0
+sudo mv 0x0 /usr/local/bin
