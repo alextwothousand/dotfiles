@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# rpm fusion
+sudo yum install -y https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+
 # add repos from copr
 sudo dnf copr enable peterwu/jetbrains -y
 sudo dnf copr enable dvdmuckle/discord -y
