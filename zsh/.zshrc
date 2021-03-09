@@ -104,3 +104,4 @@ alias zshconfig="cat ~/.zshrc"
 alias yum="sudo yum"
 
 alias ls="exa"
+alias copr="sudo yum copr"
