@@ -30,4 +30,4 @@ sudo chmod +x 0x0
 sudo mv 0x0 /usr/local/bin
 
 # otherr
-sudo yum install -y exa
+sudo yum install -y exa jetbrains-mono-fonts
